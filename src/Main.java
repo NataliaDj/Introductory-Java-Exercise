@@ -18,5 +18,9 @@ public class Main {
         System.out.println("Draw a right triangle");
         Triangle.printRightTriangle(3);
         System.out.println();
+
+        System.out.println("Draw an isosceles triangle");
+        Triangle.printIsoscelesTriangle(3);
+        System.out.println();
     }
 }
