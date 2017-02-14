@@ -32,6 +32,6 @@ public class Main {
         System.out.println();
 
         FizzBuzz.run(1,15);
-        
+
     }
 }
