@@ -29,8 +29,8 @@ Example when n=3:<br/>
 ## Diamond Exercises
 ### Isosceles Triangle
 Given a number n, print a centered triangle. Example for n=3:<br/>
-  \*<br/>
- \*\*\*<br/>
+&nbsp;&nbsp;\*<br/>
+&nbsp;\*\*\*<br/>
 \*\*\*\*\*<br/>
 
 
