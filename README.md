@@ -48,3 +48,28 @@ Given a number n, print a centered diamond with your name in place of the middle
 Bill<br/>
 &nbsp;\*\*\*<br/>
 &nbsp;&nbsp;\*<br/>
+
+## FizzBuzz Exercise
+FizzBuzz is a simple number game where you count, but say "Fizz" and/or "Buzz" instead of numbers adhering to certain rules.<br/>
+<br/>
+Create a FizzBuzz() method that prints out the numbers 1 through 100.<br/>
+Instead of numbers divisible by three print "Fizz".<br/>
+Instead of numbers divisible by five print "Buzz".<br/>
+Instead of numbers divisible by three and five print "FizzBuzz".<br/>
+<br/>
+Sample Output:<br/>
+1<br/>
+2<br/>
+Fizz<br/>
+4<br/>
+Buzz<br/>
+Fizz<br/>
+7<br/>
+8<br/>
+Fizz<br/>
+Buzz<br/>
+11<br/>
+Fizz<br/>
+13<br/>
+14<br/>
+FizzBuzz<br/>
