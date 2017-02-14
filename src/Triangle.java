@@ -5,7 +5,7 @@ public class Triangle {
     /**
      * Print one asterisk to the console.
      */
-    public static void asteriskPrint() {
+    protected static void asteriskPrint() {
         System.out.println("*");
     }
 
@@ -39,13 +39,16 @@ public class Triangle {
     }
 
     public static void printIsoscelesTriangle(int n) {
-        for (int i = 1; i <= n; i++) {
-            for(int j = 0; j < (Math.abs(n-i)); j++)
-                System.out.print(" ");
-            int length = 2 * i - 1;
-            for (int j = 0; j < length; j++)
-                System.out.print("*");
-            System.out.println();
-        }
+        for (int i = 1; i <= n; i++)
+            printLineHelper(i, n);
+    }
+
+    protected static void printLineHelper(int row, int size) {
+        for(int j = 0; j < (Math.abs(size-row)); j++)
+            System.out.print(" ");
+        int length = 2 * row - 1;
+        for (int j = 0; j < length; j++)
+            System.out.print("*");
+        System.out.println();
     }
 }
