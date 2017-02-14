@@ -14,5 +14,9 @@ public class Main {
         System.out.println("Draw a vertical line");
         Triangle.verticalLine(3);
         System.out.println();
+
+        System.out.println("Draw a right triangle");
+        Triangle.printRightTriangle(3);
+        System.out.println();
     }
 }

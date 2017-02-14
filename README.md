@@ -3,21 +3,28 @@
 
 ## Triangle Exercises
 ### Easiest exercise ever
-Print one asterisk to the console.
-Example:
-*
+Print one asterisk to the console.<br/>
+Example:<br/>
+\*<br/>
 
 ### Draw a horizontal line
-Given a number n, print n asterisks on one line.
-Example when n=8:
-********
+Given a number n, print n asterisks on one line.<br/>
+Example when n=8:<br/>
+\*\*\*\*\*\*\*\* <br/>
 
 ### Draw a vertical line
-Given a number n, print n lines, each with one asterisks
-Example when n=3:
-*
-*
-*
+Given a number n, print n lines, each with one asterisks<br/>
+Example when n=3:<br/>
+\*<br/>
+\*<br/>
+\*<br/>
+
+### Draw a right triangle
+Given a number n, print n lines, each with one more asterisk than the last (i.e. one on the first line, two on the second,etc.)<br/>
+Example when n=3:<br/>
+\*<br/>
+\*\*<br/>
+\*\*\*<br/>
 
 
 

@@ -14,7 +14,7 @@ public class Triangle {
      * @param n
      */
     public static void horizontalLine(int n) {
-        for (int i = 0; i < n; i++)
+        for(int i = 0; i < n; i++)
             System.out.print("*");
         System.out.println();
     }
@@ -24,7 +24,17 @@ public class Triangle {
      * @param n
      */
     public static void verticalLine(int n) {
-        for (int i = 0; i < n; i++)
+        for(int i = 0; i < n; i++)
             asteriskPrint();
+    }
+
+    /**
+     * Given a number n, print n lines, each with one more asterisk than the last
+     * (i.e. one on the first line, two on the second,etc.)
+     * @param n
+     */
+    public static void printRightTriangle(int n) {
+        for(int i = 0; i < n; i++)
+            horizontalLine(i+1);
     }
 }
