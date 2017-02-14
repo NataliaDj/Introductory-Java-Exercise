@@ -33,7 +33,7 @@ Given a number n, print a centered triangle. Example for n=3:<br/>
 &nbsp;\*\*\*<br/>
 \*\*\*\*\*<br/>
 
-###Diamond
+### Diamond
 Given a number n, print a centered diamond. Example for n=3:<br/>
 &nbsp;&nbsp;\*<br/>
 &nbsp;\*\*\*<br/>
@@ -41,3 +41,10 @@ Given a number n, print a centered diamond. Example for n=3:<br/>
 &nbsp;\*\*\*<br/>
 &nbsp;&nbsp;\*<br/>
 
+### Diamond with Name
+Given a number n, print a centered diamond with your name in place of the middle line. Example for n=3:<br/>
+&nbsp;&nbsp;\*<br/>
+&nbsp;\*\*\*<br/>
+Bill<br/>
+&nbsp;\*\*\*<br/>
+&nbsp;&nbsp;\*<br/>

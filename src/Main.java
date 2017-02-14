@@ -27,5 +27,8 @@ public class Main {
         Diamond.printDiamond(3);
         System.out.println();
 
+        System.out.println("Draw a diamond with name");
+        Diamond.printNameDiamond(3, "Bill");
+        System.out.println();
     }
 }
