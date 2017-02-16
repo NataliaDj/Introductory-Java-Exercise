@@ -1,3 +1,5 @@
+package primefactor;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,18 +15,21 @@ public class PrimeFactor {
     public static List<Integer> generate(int n) {
         ArrayList<Integer> primeList = new ArrayList<Integer>();
 
-        Boolean even = false;
+        boolean even = false;
         int number = n;
-        while(number % 2 == 0) {
+        while( (number & 1) == 0) {
             even = true;
             number /= 2;
         }
 
-        if(even)
+        if(even) {
             primeList.add(2);
+        }
 
-        int prime = 3;
+        // Every composite number has at least one prime factor
+        // less than or equal to square root of itself.
         int max = (int) Math.sqrt(n);
+        int prime = 3;
         boolean add = true;
         while(prime <= max) {
             if(number % prime == 0) {

@@ -2,7 +2,7 @@
 
 https://github.com/NataliaDj/Introductory-Java-Exercise
 
-## Triangle Exercises
+## Shape.Triangle Exercises
 ### Easiest exercise ever
 Print one asterisk to the console.<br/>
 Example:<br/>
@@ -27,14 +27,14 @@ Example when n=3:<br/>
 \*\*<br/>
 \*\*\*<br/>
 
-## Diamond Exercises
-### Isosceles Triangle
+## Shape.Diamond Exercises
+### Isosceles Shape.Triangle
 Given a number n, print a centered triangle. Example for n=3:<br/>
 &nbsp;&nbsp;\*<br/>
 &nbsp;\*\*\*<br/>
 \*\*\*\*\*<br/>
 
-### Diamond
+### Shape.Diamond
 Given a number n, print a centered diamond. Example for n=3:<br/>
 &nbsp;&nbsp;\*<br/>
 &nbsp;\*\*\*<br/>
@@ -42,7 +42,7 @@ Given a number n, print a centered diamond. Example for n=3:<br/>
 &nbsp;\*\*\*<br/>
 &nbsp;&nbsp;\*<br/>
 
-### Diamond with Name
+### Shape.Diamond with Name
 Given a number n, print a centered diamond with your name in place of the middle line. Example for n=3:<br/>
 &nbsp;&nbsp;\*<br/>
 &nbsp;\*\*\*<br/>
@@ -50,13 +50,13 @@ Bill<br/>
 &nbsp;\*\*\*<br/>
 &nbsp;&nbsp;\*<br/>
 
-## FizzBuzz Exercise
-FizzBuzz is a simple number game where you count, but say "Fizz" and/or "Buzz" instead of numbers adhering to certain rules.<br/>
+## FizzBuzz.FizzBuzz Exercise
+FizzBuzz.FizzBuzz is a simple number game where you count, but say "Fizz" and/or "Buzz" instead of numbers adhering to certain rules.<br/>
 <br/>
-Create a FizzBuzz() method that prints out the numbers 1 through 100.<br/>
+Create a FizzBuzz.FizzBuzz() method that prints out the numbers 1 through 100.<br/>
 Instead of numbers divisible by three print "Fizz".<br/>
 Instead of numbers divisible by five print "Buzz".<br/>
-Instead of numbers divisible by three and five print "FizzBuzz".<br/>
+Instead of numbers divisible by three and five print "FizzBuzz.FizzBuzz".<br/>
 <br/>
 Sample Output:<br/>
 1<br/>
@@ -73,7 +73,7 @@ Buzz<br/>
 Fizz<br/>
 13<br/>
 14<br/>
-FizzBuzz<br/>
+FizzBuzz.FizzBuzz<br/>
 
 ## Prime Factors Exercise
 Write a method generate(int n) that given an integer N will return a list of integers such that the numbers are the factors of N and are arranged in increasing numerical order.<br/>
