@@ -1,5 +1,8 @@
 package fizzbuzz;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by nataliadjohari on 14/02/2017.
  */
@@ -14,21 +17,24 @@ public class FizzBuzz {
      *
      * @param start
      * @param end
+     * @return
      */
-    public static void run(int start, int end) {
+    public static List<String> run(int start, int end) {
+        ArrayList<String> results = new ArrayList<String>();
         for(int i = start; i <= end; i++) {
             boolean mod3 = i % 3 == 0;
             boolean mod5 = i % 5 == 0;
 
             if(mod3 && mod5) {
-                System.out.println("fizzbuzz");
+                results.add("fizzbuzz");
             } else if (mod3) {
-                System.out.println("Fizz");
+                results.add("Fizz");
             } else if (mod5) {
-                System.out.println("Buzz");
+                results.add("Buzz");
             } else {
-                System.out.println(i);
+                results.add(String.valueOf(i));
             }
         }
+        return results;
     }
 }

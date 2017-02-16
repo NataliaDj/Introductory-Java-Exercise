@@ -5,16 +5,22 @@ package shape;
  */
 public class Diamond {
     /**
-     * Given a number n, print a centered diamond.
+     * Given a number n, create a centered diamond.
+     *
      * @param n
+     * @return
      */
     public static String createFullDiamond(int n, char c) {
         return createDiamondRows(1, n*2, n, c);
     }
 
     /**
-     * Given a number n, print a centered diamond.
+     * Given a number n, create a centered diamond with name as the center row
+     *
      * @param n
+     * @param name
+     * @param c
+     * @return
      */
     public static String createNameDiamond(int n, String name, char c) {
         String line = createDiamondRows(1, n-1, n, c);
@@ -52,9 +58,11 @@ public class Diamond {
     }
 
     /**
-     * Prints the line of a diamond given the row number and size of diamond
+     * Creates the line of a diamond given the row number and size of diamond
      * @param row
      * @param size
+     * @param c
+     * @return
      */
     private static String createRow(int row, int size, char c) {
         String line = "";

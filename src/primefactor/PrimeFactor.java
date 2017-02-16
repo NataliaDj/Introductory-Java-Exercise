@@ -11,6 +11,7 @@ public class PrimeFactor {
      * given an integer N will return a list of integers such that the numbers
      * are the factors of N and are arranged in increasing numerical order.
      * @param n
+     * @return
      */
     public static List<Integer> generate(int n) {
         ArrayList<Integer> primeList = new ArrayList<Integer>();

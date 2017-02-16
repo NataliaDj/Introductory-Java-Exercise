@@ -5,9 +5,11 @@ package shape;
  */
 public class Line {
     /**
-     * Given a number n, print character c n times on one line.
+     * Given a number n, create character c n times on one line.
+     *
      * @param n
      * @param c
+     * @return
      */
     public static String horizontalLine(int n, char c) {
         String line = "";
@@ -19,9 +21,11 @@ public class Line {
     }
 
     /**
-     * Given a number n, print n lines, each with one character c
+     * Given a number n, create n lines, each with one character c
+     *
      * @param n
      * @param c
+     * @return
      */
     public static String verticalLine(int n, char c) {
         String line = "";
