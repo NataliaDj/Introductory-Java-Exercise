@@ -11,20 +11,20 @@ import static org.hamcrest.MatcherAssert.assertThat;
  */
 public class DiamondTest {
     @Test
-    public void fullDiamondTest1() {
+    public void createFullDiamond0ShouldReturnEmptyStringTest() {
         String diamond = Diamond.createFullDiamond(0, '%');
         assertThat(diamond, is(""));
     }
 
     @Test
-    public void fullDiamondTest2() {
+    public void createFullDiamond1ShouldReturnCharacterAndNewLineTest() {
         String diamond = Diamond.createFullDiamond(1, '$');
         assertThat(diamond, is("$\n"));
 
     }
 
     @Test
-    public void fullDiamondTest3() {
+    public void createFullDiamond3ShouldReturn5LinesDiamondStringTest() {
         String expected =
                 "  #\n" +
                 " ###\n" +
@@ -37,21 +37,21 @@ public class DiamondTest {
     }
 
     @Test
-    public void nameDiamondTest1() {
+    public void createNameDiamond0ShouldReturnEmptyStringTest() {
         String diamond = Diamond.createNameDiamond(0, "", '%');
         assertThat(diamond, is("\n"));
 
     }
 
     @Test
-    public void nameDiamondTest2() {
+    public void createNameDiamond1ShouldReturnNameAndNewLineTest() {
         String diamond = Diamond.createNameDiamond(1, "Sam", '@');
         assertThat(diamond, is("Sam\n"));
 
     }
 
     @Test
-    public void nameDiamondTest3() {
+    public void createNameDiamond3ShouldReturn5LinesDiamondWithNameInMiddleTest() {
         String expected =
                 "  !\n" +
                 " !!!\n" +
@@ -63,7 +63,7 @@ public class DiamondTest {
     }
 
     @Test
-    public void diamondRowsTest1() {
+    public void createDiamondRows1To5Size3ShouldReturnFull5LineDiamondStringTest() {
         String expected =
                 "  !\n" +
                 " !!!\n" +
@@ -76,7 +76,7 @@ public class DiamondTest {
     }
 
     @Test
-    public void diamondRowsTest2() {
+    public void createDiamondRows0To0ShouldReturnEmptyStringTest() {
         String expected = "";
         String diamond = Diamond.createDiamondRows(0, 0,3, '#');
         assertThat(diamond, is(expected));
@@ -84,7 +84,7 @@ public class DiamondTest {
     }
 
     @Test
-    public void diamondRowsTest3() {
+    public void createDiamondRows1To3Size3ShouldReturnHalfDiamondTest() {
         String expected = ""+
                 "  a\n" +
                 " aaa\n" +
