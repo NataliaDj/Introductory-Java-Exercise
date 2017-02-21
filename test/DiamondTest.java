@@ -95,7 +95,7 @@ public class DiamondTest {
     }
 
     @Test
-    public void diamondRowsTest4() {
+    public void createDiamondRows4To5Size3ShouldReturnLowerHalfOfDiamondTest() {
         String expected = "" +
                 " @@@\n" +
                 "  @\n";
@@ -105,7 +105,7 @@ public class DiamondTest {
     }
 
     @Test
-    public void diamondRowsTest5() {
+    public void createDiamondRows5To4ShouldReturnEmptyStringTest() {
         String expected = "";
         String diamond = Diamond.createDiamondRows(5, 4,3, '!');
         assertThat(diamond, is(expected));
