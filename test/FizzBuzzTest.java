@@ -1,5 +1,3 @@
-package test;
-
 import fizzbuzz.FizzBuzz;
 import org.junit.Test;
 
