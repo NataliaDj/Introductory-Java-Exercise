@@ -11,7 +11,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
  */
 public class FizzBuzzTest {
     @Test
-    public void fizzBuzzTest1() {
+    public void run1To15ReturnExpectedResultTest() {
         String [] expected = new String[15];
         expected[0] = "1";
         expected[1] = "2";

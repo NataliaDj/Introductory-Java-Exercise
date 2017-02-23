@@ -9,21 +9,21 @@ import static org.hamcrest.MatcherAssert.assertThat;
  */
 public class TriangleTest {
     @Test
-    public void rightTriangleTest1() {
+    public void createRightTriangle0ReturnEmptyStringTest() {
         String triangle = Triangle.createRightTriangle(0,'$');
         assertThat(triangle, is(""));
 
     }
 
     @Test
-    public void rightTriangleTest2() {
+    public void createRightTriangle1HashReturnHashNewLineStringTest() {
         String triangle = Triangle.createRightTriangle(1,'#');
         assertThat(triangle, is("#\n"));
 
     }
 
     @Test
-    public void rightTriangleTest3() {
+    public void createRightTriangle5AsteriskReturnExpectedTriangleInAsterisksStringTest() {
         String expected = "" +
                 "*\n" +
                 "**\n" +
@@ -36,21 +36,21 @@ public class TriangleTest {
     }
 
     @Test
-    public void isoscelesTriangleTest1() {
+    public void createIsoscelesTriangle0ReturnEmptyStringTest() {
         String triangle = Triangle.createIsoscelesTriangle(0,'$');
         assertThat(triangle, is(""));
 
     }
 
     @Test
-    public void isoscelesTriangleTest2() {
+    public void createIsoscelesTriangle1HashReturnHashNewLineStringTest() {
         String triangle = Triangle.createIsoscelesTriangle(1,'#');
         assertThat(triangle, is("#\n"));
 
     }
 
     @Test
-    public void isoscelesTriangleTest3() {
+    public void createIsoscelesTriangle5AsterisksCreatesExpectedTriangleInAsterisksTest() {
         String expected = "" +
                 "    *\n" +
                 "   ***\n" +

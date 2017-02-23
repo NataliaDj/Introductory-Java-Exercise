@@ -9,37 +9,37 @@ import static org.hamcrest.MatcherAssert.assertThat;
  */
 public class LineTest {
     @Test
-    public void horizontalTest1() {
+    public void horizontalLine0ReturnNewLineStringTest() {
         String line = Line.horizontalLine(0, '*');
         assertThat(line, is("\n"));
     }
 
     @Test
-    public void horizontalTest2() {
+    public void horizontalLine1AsteriskReturn1AsteriskAndNewLineStringTest() {
         String line = Line.horizontalLine(1, '*');
         assertThat(line, is("*\n"));
     }
 
     @Test
-    public void horizontalTest3() {
+    public void horizontalLine5AmpersandReturn5AmpersandAndNewLineStringTest() {
         String line = Line.horizontalLine(5, '&');
         assertThat(line, is("&&&&&\n"));
     }
 
     @Test
-    public void verticalTest1() {
+    public void verticalLine0ReturnEmptyStringTest() {
         String line = Line.verticalLine(0, '^');
         assertThat(line, is(""));
     }
 
     @Test
-    public void verticalTest2() {
+    public void verticalLine1AsterisksReturnAsterisksAndNewLineStringTest() {
         String line = Line.verticalLine(1, '*');
         assertThat(line, is("*\n"));
     }
 
     @Test
-    public void verticalTest3() {
+    public void verticalLine5HashReturnHashAndNewLine5TimesStringTest() {
         String line = Line.verticalLine(6, '#');
         assertThat(line, is("#\n#\n#\n#\n#\n#\n"));
     }

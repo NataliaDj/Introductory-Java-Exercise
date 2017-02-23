@@ -11,20 +11,20 @@ import static org.hamcrest.core.Is.is;
  */
 public class PrimeFactorTest {
     @Test
-    public void primeFactorTest1() {
+    public void generate1ReturnEmptyList() {
         List<Integer> factors = PrimeFactor.generate(1);
         assertThat(factors.size(), is(0));
     }
 
     @Test
-    public void primeFactorTest2() {
+    public void generate2ReturnListSize1AndFirstValue2() {
         List<Integer> factors = PrimeFactor.generate(2);
         assertThat(factors.size(), is(1));
         assertThat(factors.get(0), is(2));
     }
 
     @Test
-    public void primeFactorTest12() {
+    public void generate12ReturnListSize2AndValues2And3() {
         List<Integer> factors = PrimeFactor.generate(12);
         assertThat(factors.size(), is(2));
         assertThat(factors.get(0), is(2));
@@ -32,7 +32,7 @@ public class PrimeFactorTest {
     }
 
     @Test
-    public void primeFactorTest16() {
+    public void generate16ReturnListSize1AndValue2() {
         List<Integer> factors = PrimeFactor.generate(16);
         assertThat(factors.size(), is(1));
         assertThat(factors.get(0), is(2));
